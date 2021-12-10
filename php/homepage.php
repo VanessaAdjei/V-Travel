@@ -74,7 +74,7 @@
             <li >
                 <h4>Step Three</h4>
                 <p>
-                <a href="Traveldoc.php">Upload your scanned passport </a>
+                <a href="Traveldoc.php">Upload your scanned documents </a>
 </p>
             </li>
        <li >

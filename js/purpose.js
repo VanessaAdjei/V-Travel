@@ -3,7 +3,7 @@ const erroMsg = document.getElementById('error');
 
 const validateFullname = (e) =>{
 
-    const fullnamereg = /^[a-zA-Z_ ]*$/;
+    const fullnamereg = /^[a-zA-Z0-9_ ]*$/;
     const testNameReg = fullnamereg.test(fullname.value);
 
     if(!fullname.value){
@@ -27,7 +27,7 @@ const perroMsg = document.getElementById('perror');
 
 const validatePurpose = (e) =>{
 
-    const purposereg = /^[a-zA-Z_ ]*$/;
+    const purposereg = /^[a-zA-Z0-9_ ]*$/;
 
     const testNameReg = purposereg.test(purpose.value);
 
