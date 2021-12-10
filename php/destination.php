@@ -83,7 +83,7 @@
 
 <div>
 
-<?php $results = mysqli_query($db, "SELECT * FROM country"); ?>
+<?php $results = mysqli_query($db, "SELECT * FROM country" ); ?>
 
 <table>
 	<thead>
@@ -131,7 +131,7 @@
 </form>
 </div>
 <div>
-                <p>		<a class="fcc-btn" href="purpose.php">Step Two</a>    </p>
+                <p>	<a class="fcc-btn" href="purpose.php">Step Two</a>    </p>
             
 </div>
 
