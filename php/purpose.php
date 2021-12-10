@@ -50,7 +50,7 @@
                     <a class="nav-link" href="../php/clogin.php">Login</a>
                 </li>
                 <li class="nav-item" id="outr_nav">
-                    <a class="nav-link" href="../php/index.php">Sign Up</a> 
+                    <a class="nav-link" href="index.php">Sign Up</a> 
                 </li>
             </ul>
             <button onclick="history.back()">Go Back</button>

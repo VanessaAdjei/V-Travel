@@ -32,8 +32,8 @@
         </ul>
 
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="signup.php"><span class="glyphicon glyphicon-user"></span> Sign Up </a></li>
-          <li><a href=""><span class="glyphicon glyphicon-log-in"></span> Login </a></li>
+          <li><a href="index.php"><span class="glyphicon glyphicon-user"></span> Sign Up </a></li>
+          <li><a href="../php/clogin.php"><span class="glyphicon glyphicon-log-in"></span> Login </a></li>
         </ul>
       </div>
       <button onclick="history.back()">Go Back</button>
@@ -70,7 +70,7 @@ if(isset($_POST['submit'])){
   <div class="jumbotron" style="text-align: center;">
       <h2> <?php echo "Yay!" ?> </h2>
       <h1>You have submitted your form.</h1>
-      <p>You can go back to home <a href="../php/homepage.php">HERE</a></p>
+      <p>You can go to step 3 <a href="Traveldoc.php">HERE</a></p>
   </div>
 </div>
 

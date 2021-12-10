@@ -44,7 +44,7 @@ header("location: homepage.php"); //homepage
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span> Sign Up <span class="caret"></span> </a>
                 <ul class="dropdown-menu">
-              <li> <a href="customersignup.php"> Sign-up</a></li>
+              <li> <a href="index.php"> Sign-up</a></li>
              
       
             </ul>
@@ -52,7 +52,7 @@ header("location: homepage.php"); //homepage
 
             <li><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-log-in"></span> Login <span class="caret"></span></a>
               <ul class="dropdown-menu">
-              <li> <a href="customerlogin.php">  Login</a></li>
+              <li> <a href="clogin.php">  Login</a></li>
            
    
             </ul>

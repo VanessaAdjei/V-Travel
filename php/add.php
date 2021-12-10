@@ -82,16 +82,7 @@ if(isset($_POST['submit'])){
 ?>
 
 
-<div class="container">
-  <div class="jumbotron" style="text-align: center;">
-      <h2> <?php echo "Yay!" ?> </h2>
-      <h1>You have submitted your destination.</h1>
-      <p>Go back to step 3 <a href="Traveldoc.php">HERE</a></p>
-      <br>  <br> <br> <br> <br>
 
-  
-  </div>
-</div>
 
 
 

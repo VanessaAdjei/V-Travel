@@ -22,7 +22,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="../php/index.php">V Visa</a>
+          <a class="navbar-brand" href="index.php">V Visa</a>
         </div>
 
         <div class="collapse navbar-collapse " id="myNavbar">
@@ -33,7 +33,7 @@
 
           <ul class="nav navbar-nav navbar-right">
             <li><a href="index.php"><span class="glyphicon glyphicon-user"></span> Sign Up </a></li>
-            <li><a href="customerlogin.php"><span class="glyphicon glyphicon-log-in"></span> Login </a></li>
+            <li><a href="clogin.php"><span class="glyphicon glyphicon-log-in"></span> Login </a></li>
           </ul>
         </div>
 
@@ -65,7 +65,7 @@ $conn->close();
 
 <div class="container">
 	<div class="jumbotron" style="text-align: center;">
-		<h2> <?php echo "Welcome $fullname!" ?> </h2>
+		<h2> <?php echo "Welcome $fullname !" ?> </h2>
 		<h1>Your account has been created.</h1>
 		<p>Login Now from <a href="clogin.php">HERE</a></p>
 	</div>
