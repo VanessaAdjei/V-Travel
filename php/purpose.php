@@ -65,37 +65,37 @@
 <div class="segment">
 <div class="input-group">
 			<label >Full Name</label><br><br>
-			<input type="text" id="fullname" name="fullname" onInput="validateFullname()" ><br>
+			<input type="text" id="fullname" name="fullname" onInput="validateFullname()" required=""><br>
            <span id="error"></span> 
 </div>
 	
 <div class="input-group">
 			<label>Purpose of travel</label><br><br>
-			<input type="text" id="purpose" name="purpose" onInput="validatePurpose()"><br>
+			<input type="text" id="purpose" name="purpose" onInput="validatePurpose()" required=""><br>
             <span id="perror"></span> 
 	</div>
 <br>
 <div class="input-group">
 			<label>Email</label><br><br>
-			<input type="email"  id="email"name="email" onInput="Email()"><br>
+			<input type="email"  id="email"name="email" onInput="Email()" required=""><br>
             <span id="merror"></span> 
 	</div>
     <div class="input-group">
 			<label>Duration (days)</label><br><br>
-			<input type="text"  id="duration" name="duration" onInput="validateDuration()"><br>
+			<input type="text"  id="duration" name="duration" onInput="validateDuration()" required=""><br>
             <span id="derror"></span> 
 	</div>
     <br>
     <div class="input-group">
 			<label>Age</label><br><br>
-			<input type="number" id="age" name="age" onInput="validateAge()"><br>
+			<input type="number" id="age" name="age" onInput="validateAge()" required=""><br>
         <span id="aerror"></span> 
 	</div>
     <br>
 
     <div class="input-group">
 			<label>Mobile Number</label><br><br>
-			<input type="number" name="number"  id="number" onInput="validateNumber()"><br>
+			<input type="number" name="number"  id="number" onInput="validateNumber()" required=""><br>
         <span id="nerror"></span> 
 	</div>
 <br>
