@@ -1,0 +1,17 @@
+
+#features ul li {
+    width: 300px;
+    padding-top: 100px;
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+    
+}
