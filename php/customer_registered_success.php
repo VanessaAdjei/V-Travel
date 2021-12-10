@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <html>
 
   <head>
@@ -32,8 +33,8 @@
           </ul>
 
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.php"><span class="glyphicon glyphicon-user"></span> Sign Up </a></li>
-            <li><a href="clogin.php"><span class="glyphicon glyphicon-log-in"></span> Login </a></li>
+            <li><a href="../index.php"><span class="glyphicon glyphicon-user"></span> Sign Up </a></li>
+            <li><a href="../php/clogin.php"><span class="glyphicon glyphicon-log-in"></span> Login </a></li>
           </ul>
         </div>
 

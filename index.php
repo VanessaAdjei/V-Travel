@@ -4,10 +4,10 @@
     <title> Signup | V Visa </title>
   </head>
 
-  <link rel="stylesheet" type = "text/css" href ="../css/managersignup.css">
-  <link rel="stylesheet" type = "text/css" href ="../css/bootstrap.min.css">
-  <script type="text/javascript" src="../js/jquery.min.js"></script>
-  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type = "text/css" href ="./css/managersignup.css">
+  <link rel="stylesheet" type = "text/css" href ="./css/bootstrap.min.css">
+  <script type="text/javascript" src="./js/jquery.min.js"></script>
+  <script type="text/javascript" src="./js/bootstrap.min.js"></script>
 
   <body>
 
@@ -59,7 +59,7 @@
         <div class="panel-heading"> Create Account </div>
         <div class="panel-body">
           
-        <form role="form" action="../php/customer_registered_success.php" method="POST" id="signup_form">
+        <form role="form" action="./php/customer_registered_success.php" method="POST" id="signup_form">
          
           <div class="row">
           <div class="form-group col-xs-12">
@@ -154,7 +154,7 @@
 
         </form>
 
-        <script src="../js/validation.js"></script>
+        <script src="./js/validation.js"></script>
         </div>
         
       </div>

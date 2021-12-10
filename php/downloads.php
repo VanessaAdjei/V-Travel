@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <?php include ('filesLogic.php');?> 
 <!DOCTYPE html>
 <html>
@@ -48,7 +49,7 @@
                     
                 </li>
                 <li class="nav-item" id="outl_nav">
-                    <a class="nav-link" href="../php/c.php">Login</a>
+                    <a class="nav-link" href="../php/clogin.php">Login</a>
                 </li>
                 <li class="nav-item" id="outr_nav">
                     <a class="nav-link" href="index.php">Sign Up</a> 

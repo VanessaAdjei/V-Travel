@@ -1,3 +1,4 @@
+<?php  session_start() ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -42,10 +43,16 @@
             <ul class="navbar-nav">
                 
                 <li class="nav-item" id="outl_nav">
-                    <a class="nav-link" href="../php/clogin.php">Login</a>
+                  <?php if(isset($_SESSION['login_user2'])) { ?>
+                    <a class="nav-link" href="../php/logout.php">Logout</a>
+                <?php } else{ ?> 
+                  <a class="nav-link" href="../php/clogin.php">Login</a>
+
+                  <?php } ?>
+                    
                 </li>
                 <li class="nav-item" id="outr_nav">
-                    <a class="nav-link" href="index.php">Sign Up</a> 
+                    <a class="nav-link" href="../index.php">Sign Up</a> 
                 </li>
             </ul>
             <button onclick="history.back()">Go Back</button>

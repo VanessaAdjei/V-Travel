@@ -1,4 +1,5 @@
 <?php
+session_start();
 include('login.php'); // Includes Login Script
 
 if(isset($_SESSION['login_user2'])){
@@ -44,7 +45,7 @@ header("location: homepage.php"); //homepage
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span> Sign Up <span class="caret"></span> </a>
                 <ul class="dropdown-menu">
-              <li> <a href="index.php"> Sign-up</a></li>
+              <li> <a href="../index.php"> Sign-up</a></li>
              
       
             </ul>

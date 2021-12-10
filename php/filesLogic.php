@@ -1,4 +1,5 @@
 <?php
+session_start();
 $conn = mysqli_connect("localhost", "root", "root", "visa");
 
 $sql = "SELECT * FROM files";
@@ -54,7 +55,7 @@ if (isset($_GET['file_id'])) {
         header('Cache-Control: must-revalidate');
         header('Pragma: public');
         header('Content-Length: ' . filesize('../uploads/' . $file['name']));
-        readfile('uploads/' . $file['name']);
+        readfile('../uploads/' . $file['name']);
 
         // Now update downloads count
         $newCount = $file['downloads'] + 1;
