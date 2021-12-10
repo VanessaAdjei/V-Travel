@@ -36,6 +36,9 @@
                     <a class="nav-link" href="../php/Traveldoc.php">Travel Documents</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="../php/date.php">Set an appointment date</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="../php/downloads.php">Downloads</a>
                 </li>
                  <li class="nav-item">
@@ -58,7 +61,7 @@
         </div>
     </nav>
 
-<br> <br><br><br><br>
+<br> <br>
 
 
 <div >
@@ -73,11 +76,8 @@
     </div>
 
 <div>
-  
-      
                 <p>
-                <a class="fcc-btn" href="#">Step Four</a>
-                
+                <a class="fcc-btn" href="date.php">Step Four</a>              
 </p>
 </div>
 <div>

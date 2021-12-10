@@ -34,6 +34,9 @@
                     <a class="nav-link" href="../php/Traveldoc.php">Travel Documents</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="../php/date.php">Set an appointment date</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="../php/downloads.php">Downloads</a>
                 </li>
                  <li class="nav-item">
@@ -87,7 +90,7 @@
        <li >
                 <h4>Step Four</h4>
                 <p>
-                <a href="#">Wait for an appointment Date from us</a>
+                <a href="date.php">Set an appointment </a>
 </p>
             </li>
             <div class="clear"></div>

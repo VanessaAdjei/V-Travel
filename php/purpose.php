@@ -36,6 +36,9 @@
                     <a class="nav-link" href="../php/Traveldoc.php">Travel Documents</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="../php/date.php">Set an appointment date</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="../php/downloads.php">Downloads</a>
                 </li>
                  <li class="nav-item">
