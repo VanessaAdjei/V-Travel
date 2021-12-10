@@ -36,7 +36,7 @@
                     <a class="nav-link" href="Traveldoc.php">Travel Documents</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="downloads.php">Download</a>
+                    <a class="nav-link" href="downloads.php">Downloads</a>
                 </li>
                  <li class="nav-item">
                     <a class="nav-link" href="https://www.google.com">FAQ</a>
