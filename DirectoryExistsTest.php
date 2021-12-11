@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 use PHPUnit\Framework\TestCase;
 
-final class DirectoryExistsTest extends TestCase
+final class Tests extends TestCase
 {
     public function testFailure(): void
     {
-        $this->assertDirectoryExists('php');
+        $this->assertTests('php');
         
     }
 }

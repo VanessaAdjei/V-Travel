@@ -17,7 +17,7 @@ require 'connection.php';
 $conn = Connect();
 
 // SQL query to fetch information of registerd users and finds user match.
-$query = "SELECT username, password FROM CUSTOMER WHERE username=? AND password=? LIMIT 1";
+$query = "SELECT `username`, `password` FROM `CUSTOMER` WHERE `username`=? AND `password`=? LIMIT 1";
 
 // To protect MySQL injection for Security purpose
 $stmt = $conn->prepare($query);
